@@ -14,44 +14,49 @@ st.set_page_config(page_title="CARIO - Counselor AI", layout="wide", page_icon="
 st.markdown("""
 <style>
     .main-header {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #1f2937;
-        margin-bottom: 0;
+        font-size: 3.2rem !important;
+        font-weight: 800 !important;
+        margin-bottom: 0 !important;
+        color: #f9fafb !important;
+        line-height: 1.2 !important;
     }
     .sub-header {
-        font-size: 1rem;
-        color: #6b7280;
-        margin-top: 0;
-        margin-bottom: 2rem;
+        font-size: 1.05rem !important;
+        color: #9ca3af !important;
+        margin-top: 4px !important;
+        margin-bottom: 2rem !important;
     }
     .risk-high {
-        background-color: #fee2e2;
-        border-left: 4px solid #dc2626;
+        background-color: #7f1d1d;
+        border-left: 4px solid #ef4444;
         padding: 12px 16px;
         border-radius: 6px;
         margin-bottom: 8px;
+        color: #fecaca;
     }
     .risk-moderate {
-        background-color: #fef3c7;
-        border-left: 4px solid #d97706;
+        background-color: #78350f;
+        border-left: 4px solid #f59e0b;
         padding: 12px 16px;
         border-radius: 6px;
         margin-bottom: 8px;
+        color: #fde68a;
     }
     .risk-low {
-        background-color: #d1fae5;
-        border-left: 4px solid #059669;
+        background-color: #064e3b;
+        border-left: 4px solid #10b981;
         padding: 12px 16px;
         border-radius: 6px;
         margin-bottom: 8px;
+        color: #a7f3d0;
     }
     .answer-box {
-        background-color: #f9fafb;
-        border: 1px solid #e5e7eb;
+        background-color: #1f2937;
+        border: 1px solid #374151;
         border-radius: 10px;
         padding: 20px;
         margin-top: 16px;
+        color: #e5e7eb;
     }
     .stButton>button {
         background-color: #4f46e5;
